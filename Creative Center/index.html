@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Hello." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | Creative Center</title>
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/fadeInScroll.jQuery.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").fadeInScroll();
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.7.2/css-doodle.min.js"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="header container">
+        <div class="row scroll">
+          <div class="column-1">
+            <a href="index.html" class="logo"
+              ><span class="logoweight">creative</span>center</a
+            >
+          </div>
+
+          <div class="column-3"></div>
+
+          <div class="column-1">
+            <div role="button" class="modal-button" id="menu-button">
+              <span class="modal-button-text">Menu</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pageContainer">
+        <div class="modal-overlay"></div>
+
+        <div class="modal-wrapper">
+          <div role="button" class="close-button" id="close-button">X</div>
+          <ul id="nav" class="nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About Us</a>
+            </li>
+            <li>
+              <a href="index.html#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row scroll">
+          <div class="column-2">
+            <p class="collab">
+              Collaborate with Designers<br />
+              and Copywriters
+            </p>
+            <p class="collab2">
+              Work on refining your portfolio<br />or get help on class
+              projects.
+            </p>
+            <a href="#contact" class="signup button">CONTACT US</a>
+          </div>
+          <div class="column-3 animation">
+            <css-doodle use="var(--rule)"></css-doodle>
+          </div>
+          <div class="dummy"></div>
+        </div>
+
+        <div class="row scroll">
+          <div class="column-5">
+            <h1 class="creatives">OUR CREATIVES</h1>
+            <h2 class="think">THINK DIFFERENT</h2>
+          </div>
+        </div>
+
+        <div class="row scroll">
+          <div class="column-2"></div>
+
+          <div class="column-3 line">
+            <p class="develop">
+              Developing Innovative<br />
+              Content and Ads
+            </p>
+
+            <p class="quote">
+              Students helping students with<br />
+              their portfolios and projects <br />
+              - Stephanie Stapert, Founder
+            </p>
+          </div>
+        </div>
+
+        <div class="row scroll">
+          <div class="column-5">
+            <p class="learn">How we can assist you with your projects:</p>
+          </div>
+        </div>
+
+        <div class="row scroll">
+          <div class="column-1 iconwrapper">
+            <img src="images/network.svg" class="icon1 icon" />
+            <p class="icontext">Networking is a great trait to develop</p>
+          </div>
+          <div class="column-1"></div>
+          <div class="column-1 iconwrapper">
+            <img src="images/idea.svg" class="icon2 icon" />
+            <p class="icontext">The best ideas are developed in groups</p>
+          </div>
+          <div class="column-1"></div>
+          <div class="column-1 iconwrapper">
+            <img src="images/strategy.svg" class="icon3 icon" />
+            <p class="icontext">Strategy is a process that cannot be rushed</p>
+          </div>
+        </div>
+
+        <div class="row scroll">
+          <div class="column-2">
+            <p class="email" id="contact">Get in Touch</p>
+            <hr class="horizontalline" />
+            <p class="book">
+              If you have any questions, feel free to </br>contact us. We will get back to you </br>within 24 hours.
+            </p>
+            <a href="mailto:creativecenter.msu@gmail.com"><button class="signup button">EMAIL US</button></a>
+          </div>
+
+          <div class="column-3">
+            <img class="humans" src="images/humans.gif" />
+          </div>
+        </div>
+
+        <footer class="row footer">
+          <div class="column-1">
+            <a href="index.html" class="footerlogo"
+              ><span class="logoweight">creative</span>center</a
+            >
+          </div>
+          
+          <div class="column-3 socialMedia">
+            <a href="https://twitter.com/msucomartsci?lang=en" target="_blank"
+              ><img src="images/icons/twitter.svg"
+            /></a>
+            <a href="https://www.facebook.com/MSUComArtSci/" target="_blank"
+              ><img src="images/icons/facebook.svg"
+            /></a>
+            <a
+              href="https://www.instagram.com/msu_creativecenter/"
+              target="_blank"
+              ><img src="images/icons/instagram.svg"
+            /></a>
+          </div>
+          <div class="column-1 footerText">
+            &copy; Gabrielle Raines
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
